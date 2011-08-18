@@ -1,4 +1,6 @@
 LoreValley::Application.routes.draw do
+  resources :occupants
+
   resources :locations
 
   # The priority is based upon order of creation:
