@@ -10,7 +10,8 @@ gem 'sqlite3'
 # Use unicorn as the web server
 # gem 'unicorn'
 
-
+gem 'rspec'
+gem 'rspec-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -30,6 +31,4 @@ gem 'sqlite3'
 # and rake tasks are available in development mode:
 group :development, :test do
    gem 'webrat'
-   gem "rspec-rails", ">= 2.0.1"
-   gem 'rpsec'
  end
