@@ -4,7 +4,7 @@ class CreateLocations < ActiveRecord::Migration
       t.string :name
       t.text :description
       t.string :image_url
-      t.integer :placement
+      t.integer :placement, :precision => 4
 
       t.timestamps
     end
