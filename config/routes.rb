@@ -1,4 +1,6 @@
 LoreValley::Application.routes.draw do
+  resources :users
+
   resources :occupants
 
   resources :locations
